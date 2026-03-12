@@ -33,7 +33,7 @@ export const MustReadSection = () => {
               <div className="text-base box-border caret-transparent inline-block leading-[0px] max-w-full overflow-hidden md:text-[17px]">
                 <a href="#" className="text-base box-border caret-transparent md:text-[17px] hover:opacity-80 transition-opacity duration-200">
                   <img
-                    src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/banner-new.jpg"
+                    src="/assets/images/banners/ad-banner.jpg"
                     alt="Ad image"
                     className="text-base aspect-[auto_1300_/_300] box-border caret-transparent inline max-w-full object-cover w-[1300px] md:text-[17px]"
                   />

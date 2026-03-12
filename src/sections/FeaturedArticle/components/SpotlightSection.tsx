@@ -27,7 +27,7 @@ export const SpotlightSection = () => {
                       className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                     >
                       <img
-                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m55-420x280.jpg"
+                        src="/assets/images/avatars/james.jpg"
                         alt=""
                         className="absolute text-base aspect-[auto_420_/_280] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                       />
@@ -76,7 +76,7 @@ export const SpotlightSection = () => {
                       className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                     >
                       <img
-                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m56-420x280.jpg"
+                        src="/assets/images/avatars/sara.jpg"
                         alt=""
                         className="absolute text-base aspect-[auto_420_/_280] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                       />
@@ -125,7 +125,7 @@ export const SpotlightSection = () => {
                       className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                     >
                       <img
-                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m57-420x280.jpg"
+                        src="/assets/images/avatars/marcus.jpg"
                         alt=""
                         className="absolute text-base aspect-[auto_420_/_280] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                       />
@@ -174,7 +174,7 @@ export const SpotlightSection = () => {
                       className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                     >
                       <img
-                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m51-420x280.jpg"
+                        src="/assets/images/articles/mustread-1.jpg"
                         alt=""
                         className="absolute text-base aspect-[auto_420_/_280] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                       />

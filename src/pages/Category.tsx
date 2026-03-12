@@ -7,28 +7,28 @@ const mustReadSidebar = [
   {
     id: 1,
     title: "Fashionable Summer Accessories to Dress Up Your Travel Look",
-    image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m55-420x280.jpg",
+    image: "/assets/images/avatars/james.jpg",
     author: "TechInsider",
     date: "January 31, 2024",
   },
   {
     id: 2,
     title: "Inspiring Stories at the Intersection of Art and Innovation",
-    image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m56-420x280.jpg",
+    image: "/assets/images/avatars/sara.jpg",
     author: "TechInsider",
     date: "January 31, 2024",
   },
   {
     id: 3,
     title: "David is Tommy Wiseau in the First Teaser for The Amazon Warrior",
-    image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m57-420x280.jpg",
+    image: "/assets/images/avatars/marcus.jpg",
     author: "TechInsider",
     date: "February 1, 2024",
   },
   {
     id: 4,
     title: "Dive Into Vibrant Festivals and Events for a Rich Experience",
-    image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m51-420x280.jpg",
+    image: "/assets/images/articles/mustread-1.jpg",
     author: "TechInsider",
     date: "January 31, 2024",
   },
@@ -38,7 +38,7 @@ const mustReadHero = {
   id: 0,
   title: "Strategies to Elevate Brand Stories and Capture Audience Attention",
   excerpt: "We are just an advanced breed of monkeys on a minor planet of a very average star. But we can understand the Universe. That makes us something very special.",
-  image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m33-860x560.jpg",
+  image: "/assets/images/articles/hero-large.jpg",
   category: "Advertising",
   author: "TechInsider",
   date: "February 1, 2024",
@@ -58,35 +58,35 @@ const latestNews: LatestPost[] = [
   {
     id: 1,
     title: "Strategies to Elevate Brand Stories and Capture Audience Attention",
-    image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m33-615x410.jpg",
+    image: "/assets/images/articles/brand-stories.jpg",
     categories: [{ label: "Advertising", color: "bg-lime-300 text-black" }],
     date: "February 1, 2024",
   },
   {
     id: 2,
     title: "Building Meaningful Connections and Loyalty in Modern Marketing",
-    image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m39-615x410.jpg",
+    image: "/assets/images/articles/covid-watch.jpg",
     categories: [{ label: "Marketing", color: "bg-lime-300 text-black" }],
     date: "February 1, 2024",
   },
   {
     id: 3,
     title: "Navigating Optimizing Platforms for Effective Audience Engagement",
-    image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m49-615x410.jpg",
+    image: "/assets/images/articles/platforms.jpg",
     categories: [{ label: "Advertising", color: "bg-lime-300 text-black" }],
     date: "February 1, 2024",
   },
   {
     id: 4,
     title: "The Remarkable Developments Pushing the Limits of Innovation",
-    image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m15-420x280.jpg",
+    image: "/assets/images/articles/innovation.jpg",
     categories: [{ label: "Market Trends", color: "bg-lime-300 text-black" }],
     date: "February 1, 2024",
   },
   {
     id: 5,
     title: "Creating Valuable and Persuasive for Targeted Audiences",
-    image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m34-420x280.jpg",
+    image: "/assets/images/articles/persuasive.jpg",
     categories: [
       { label: "Fashion", color: "bg-orange-400 text-white" },
       { label: "Startups", color: "bg-lime-300 text-black" },
@@ -96,35 +96,35 @@ const latestNews: LatestPost[] = [
   {
     id: 6,
     title: "Forging Authentic Connections that Resonate with Consumers",
-    image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m36-420x280.jpg",
+    image: "/assets/images/articles/connections.jpg",
     categories: [{ label: "Startups", color: "bg-lime-300 text-black" }],
     date: "February 1, 2024",
   },
   {
     id: 7,
     title: "18 Top Fall Fashion Trends from New York Fashion",
-    image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m8-615x410.jpg",
+    image: "/assets/images/articles/fashion.jpg",
     categories: [{ label: "Startups", color: "bg-violet-500 text-white" }],
     date: "February 1, 2024",
   },
   {
     id: 8,
     title: "Strategies and Technologies Defending Against Evolving Threats",
-    image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m52-615x410.jpg",
+    image: "/assets/images/articles/hero-phone.jpg",
     categories: [{ label: "Advertising", color: "bg-lime-300 text-black" }],
     date: "February 1, 2024",
   },
   {
     id: 9,
     title: "Leveraging Authentic Collaborations for Brand Growth",
-    image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m54-615x410.jpg",
+    image: "/assets/images/articles/wearable-health.jpg",
     categories: [{ label: "Advertising", color: "bg-lime-300 text-black" }],
     date: "February 1, 2024",
   },
   {
     id: 10,
     title: "5G Era and its Impact on Communication, IoT, and Smart Cities",
-    image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m50-615x410.jpg",
+    image: "/assets/images/articles/emergency-sos.jpg",
     categories: [{ label: "Advertising", color: "bg-lime-300 text-black" }],
     date: "February 1, 2024",
     sponsored: "TechBird",
@@ -132,14 +132,14 @@ const latestNews: LatestPost[] = [
   {
     id: 11,
     title: "Tracking the Rapid Advances in Technology and Their Impact",
-    image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m53-860x688.jpg",
+    image: "/assets/images/articles/ai-content.jpg",
     categories: [{ label: "Marketing", color: "bg-lime-300 text-black" }],
     date: "February 1, 2024",
   },
   {
     id: 12,
     title: "Unlocking the Full Potential of Direct Customer Communication",
-    image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m33-860x560.jpg",
+    image: "/assets/images/articles/hero-large.jpg",
     categories: [{ label: "Advertising", color: "bg-lime-300 text-black" }],
     date: "February 1, 2024",
   },
@@ -259,7 +259,7 @@ export const CategoryPage = () => {
           </span>
           <a href="#" className="inline-block hover:opacity-80 transition-opacity">
             <img
-              src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/banner-new.jpg"
+              src="/assets/images/banners/ad-banner.jpg"
               alt="Ad"
               className="max-w-full object-cover w-[1300px]"
             />

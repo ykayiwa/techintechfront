@@ -14,7 +14,7 @@ export const PostGrid = () => {
                       className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                     >
                       <img
-                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m8-615x410.jpg"
+                        src="/assets/images/articles/fashion.jpg"
                         alt=""
                         className="absolute text-base aspect-[auto_615_/_410] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                       />
@@ -59,7 +59,7 @@ export const PostGrid = () => {
                       className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                     >
                       <img
-                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m54-615x410.jpg"
+                        src="/assets/images/articles/wearable-health.jpg"
                         alt=""
                         className="absolute text-base aspect-[auto_615_/_410] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                       />
@@ -104,7 +104,7 @@ export const PostGrid = () => {
                       className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                     >
                       <img
-                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m52-615x410.jpg"
+                        src="/assets/images/articles/hero-phone.jpg"
                         alt=""
                         className="absolute text-base aspect-[auto_615_/_410] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                       />
@@ -150,7 +150,7 @@ export const PostGrid = () => {
                       className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                     >
                       <img
-                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m50-615x410.jpg"
+                        src="/assets/images/articles/emergency-sos.jpg"
                         alt=""
                         className="absolute text-base aspect-[auto_615_/_410] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                       />

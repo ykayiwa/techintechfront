@@ -21,7 +21,7 @@ export const PopupNewsletter = () => {
           <div className="box-border flex shrink-0 leading-[27.2px] w-full md:w-2/5">
             <div className="relative bg-zinc-500/10 box-border w-full pb-[5px] md:pb-[135%]">
               <img
-                src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/news-letter.jpg"
+                src="/assets/images/banners/newsletter-popup.jpg"
                 alt=""
                 className="absolute aspect-[auto_451_/_600] box-border h-full max-w-full object-cover w-full inset-0"
               />

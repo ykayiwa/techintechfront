@@ -31,7 +31,7 @@ export const CategoryWidget = () => {
                         className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                       >
                         <img
-                          src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m33-615x410.jpg"
+                          src="/assets/images/articles/brand-stories.jpg"
                           alt=""
                           className="absolute text-base aspect-[auto_615_/_410] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                         />
@@ -69,7 +69,7 @@ export const CategoryWidget = () => {
                         className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                       >
                         <img
-                          src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m39-615x410.jpg"
+                          src="/assets/images/articles/covid-watch.jpg"
                           alt=""
                           className="absolute text-base aspect-[auto_615_/_410] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                         />
@@ -107,7 +107,7 @@ export const CategoryWidget = () => {
                         className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                       >
                         <img
-                          src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m49-615x410.jpg"
+                          src="/assets/images/articles/platforms.jpg"
                           alt=""
                           className="absolute text-base aspect-[auto_615_/_410] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                         />
@@ -167,7 +167,7 @@ export const CategoryWidget = () => {
                       className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                     >
                       <img
-                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m36-420x280.jpg"
+                        src="/assets/images/articles/connections.jpg"
                         alt=""
                         className="absolute text-base aspect-[auto_420_/_280] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                       />
@@ -206,7 +206,7 @@ export const CategoryWidget = () => {
                       className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                     >
                       <img
-                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m34-420x280.jpg"
+                        src="/assets/images/articles/persuasive.jpg"
                         alt=""
                         className="absolute text-base aspect-[auto_420_/_280] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                       />
@@ -245,7 +245,7 @@ export const CategoryWidget = () => {
                       className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                     >
                       <img
-                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m15-420x280.jpg"
+                        src="/assets/images/articles/innovation.jpg"
                         alt=""
                         className="absolute text-base aspect-[auto_420_/_280] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                       />

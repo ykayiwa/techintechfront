@@ -10,10 +10,10 @@ export const PopularPosts = () => {
                   <img
                     role="img"
                     alt="⚡"
-                    src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/26a1.svg"
+                    src="/assets/icons/bolt.svg"
                     className="text-[35px] box-border caret-transparent inline h-[35px] leading-[35px] max-w-full object-cover break-words w-[35px] mx-[2.45px] md:text-[50px] md:h-[50px] md:leading-[50px] md:w-[50px] md:mx-[3.5px]"
                   />
-                  Popuplar
+                  Popular
                 </span>
               </h2>
             </div>
@@ -33,7 +33,7 @@ export const PopularPosts = () => {
                       className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                     >
                       <img
-                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m6-420x280.jpg"
+                        src="/assets/images/articles/recommended-1.jpg"
                         alt=""
                         className="absolute text-base aspect-[auto_420_/_280] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                       />
@@ -82,7 +82,7 @@ export const PopularPosts = () => {
                       className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                     >
                       <img
-                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m59-420x280.jpg"
+                        src="/assets/images/articles/recommended-2.jpg"
                         alt=""
                         className="absolute text-base aspect-[auto_420_/_280] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                       />
@@ -131,7 +131,7 @@ export const PopularPosts = () => {
                       className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
                     >
                       <img
-                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m58-420x280.jpg"
+                        src="/assets/images/articles/recommended-3.jpg"
                         alt=""
                         className="absolute text-base aspect-[auto_420_/_280] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
                       />

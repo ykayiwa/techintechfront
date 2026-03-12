@@ -38,11 +38,11 @@ const ARTICLES: Article[] = [
     title: "How My Phone's Most Annoying Feature Saved My Life",
     subtitle: "The emergency SOS alert I always dismissed turned out to be the most important button I never knew I needed.",
     author: "James Calloway",
-    authorAvatar: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m55-420x280.jpg",
+    authorAvatar: "/assets/images/avatars/james.jpg",
     authorBio: "James is a senior technology writer covering wearables, mobile, and the human side of digital innovation. Based in San Francisco.",
     date: "March 10, 2026",
     readTime: "7 Min Read",
-    heroImage: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m52-615x410.jpg",
+    heroImage: "/assets/images/articles/hero-phone.jpg",
     heroCaption: "Modern smartphones carry features most users never explore — until they need them.",
     tags: ["Technology", "Mobile", "Health", "Innovation"],
     body: [
@@ -54,7 +54,7 @@ const ARTICLES: Article[] = [
       { type: "quote", text: "The features we find most annoying are often the ones that cost the most care to design.", cite: "UX researcher Dr. Nina Patel, Stanford HCI Lab" },
       { type: "h2", text: "When Irritation Becomes Gratitude" },
       { type: "p", text: "That Thursday, thirty seconds after the accidental trigger, I felt the chest pain. Sharp, high on the left side, radiating down my arm in a way that every first-aid poster has described since elementary school. The phone was already counting down. I let it finish." },
-      { type: "image", src: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m50-615x410.jpg", caption: "Emergency SOS can be configured in Settings > Emergency SOS on both iOS and Android." },
+      { type: "image", src: "/assets/images/articles/emergency-sos.jpg", caption: "Emergency SOS can be configured in Settings > Emergency SOS on both iOS and Android." },
       { type: "p", text: "Within four minutes, paramedics were on the line. Within twelve, I was in an ambulance. The cardiologist later told me that the blockage was significant — another thirty minutes of 'walking it off' and the outcome would have looked very different." },
       { type: "h3", text: "What the Data Actually Says" },
       { type: "p", text: "According to a 2024 report from the National Emergency Number Association, smartphone-initiated SOS calls now account for nearly 18% of all emergency dispatch events in urban areas — up from just 4% in 2019. The rise tracks almost exactly with the mainstream rollout of passive emergency features." },
@@ -74,11 +74,11 @@ const ARTICLES: Article[] = [
     title: "Your Wrist Knows You're Sick Before You Do",
     subtitle: "A new generation of biosensors is turning everyday wearables into early-warning systems for serious illness.",
     author: "Sara Mendez",
-    authorAvatar: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m56-420x280.jpg",
+    authorAvatar: "/assets/images/avatars/sara.jpg",
     authorBio: "Sara covers health technology and biotech for Tech in Tech. She holds a degree in biomedical engineering from MIT.",
     date: "March 9, 2026",
     readTime: "6 Min Read",
-    heroImage: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m39-615x410.jpg",
+    heroImage: "/assets/images/articles/covid-watch.jpg",
     heroCaption: "Wearable biosensors are moving beyond step counting into genuine clinical-grade monitoring.",
     tags: ["Health", "Wearables", "AI", "Biotech"],
     body: [
@@ -89,7 +89,7 @@ const ARTICLES: Article[] = [
       { type: "p", text: "Wearables solve both problems. They operate continuously, capturing thousands of data points daily. And they operate personally — calibrated not to population averages but to each wearer's individual baseline, making small deviations statistically meaningful." },
       { type: "quote", text: "The most powerful diagnostic tool isn't in the hospital. It's the device people already wear 24 hours a day.", cite: "Dr. Eric Topol, Scripps Research Translational Institute" },
       { type: "h2", text: "From Steps to Biomarkers" },
-      { type: "image", src: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m54-615x410.jpg", caption: "Next-gen wearables now monitor dozens of biomarkers simultaneously using non-invasive sensors." },
+      { type: "image", src: "/assets/images/articles/wearable-health.jpg", caption: "Next-gen wearables now monitor dozens of biomarkers simultaneously using non-invasive sensors." },
       { type: "p", text: "Today's leading wearables — the Apple Watch Series 10, Galaxy Watch 7, and research-grade devices like the WHOOP 5 — track metrics that would have required a clinical visit a decade ago. Electrodermal activity. Blood oxygen saturation. Skin temperature. Atrial fibrillation detection. Some emerging devices are beginning to approach non-invasive glucose monitoring." },
       { type: "list", items: ["Stanford's Apple Heart Study enrolled over 400,000 participants and detected AFib with 84% sensitivity.", "Fitbit's respiratory rate monitoring showed 73% accuracy in predicting COVID-19 positive tests 2 days before symptoms.", "Continuous glucose monitors are now available without a prescription in 17 countries."] },
       { type: "h3", text: "The Privacy Paradox" },
@@ -105,11 +105,11 @@ const ARTICLES: Article[] = [
     title: "The Quiet Revolution: How AI is Rewriting the Rules of Storytelling",
     subtitle: "From newsroom automation to synthetic voices, artificial intelligence isn't replacing writers — it's changing what writing means.",
     author: "Marcus Li",
-    authorAvatar: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m57-420x280.jpg",
+    authorAvatar: "/assets/images/avatars/marcus.jpg",
     authorBio: "Marcus is a media critic and technology essayist. His work has appeared in WIRED, The Atlantic, and MIT Technology Review.",
     date: "March 8, 2026",
     readTime: "8 Min Read",
-    heroImage: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m53-860x688.jpg",
+    heroImage: "/assets/images/articles/ai-content.jpg",
     heroCaption: "The relationship between human creativity and machine production is being renegotiated in real time.",
     tags: ["AI", "Media", "Creativity", "Future"],
     body: [
@@ -118,7 +118,7 @@ const ARTICLES: Article[] = [
       { type: "h2", text: "What Changed and What Didn't" },
       { type: "p", text: "A decade later, the landscape looks simultaneously more radical and more mundane than anyone predicted. Yes, AI can write. It can write quickly, cheaply, and often well. But the newsrooms that have leaned hardest into automation have largely converged on the same discovery: the things AI does well are exactly the things that were never the core value of human journalism." },
       { type: "quote", text: "AI is extraordinarily good at the parts of writing that are, truthfully, not interesting. Which reveals something uncomfortable about how much of professional writing was never really that interesting.", cite: "Ann Friedman, journalist and media critic" },
-      { type: "image", src: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m33-615x410.jpg", caption: "AI writing tools have become standard in most major newsroom workflows as of 2025." },
+      { type: "image", src: "/assets/images/articles/brand-stories.jpg", caption: "AI writing tools have become standard in most major newsroom workflows as of 2025." },
       { type: "h2", text: "The New Division of Labor" },
       { type: "p", text: "What has emerged, in the newsrooms that are getting this right, is a cleaner division of labor than journalism has ever had before. Machine intelligence handles the structured, templated, data-rich content: earnings summaries, sports box scores, property listings, weather updates. Human writers handle everything else — and in doing so, occupy their time more fully with the work only humans can do." },
       { type: "list", items: ["Reuters uses AI to generate approximately 3,500 stories per month, freeing reporters for investigation.", "The Washington Post's Heliograf system covered the 2016 Olympics, publishing 300 reports in real time.", "BuzzFeed's ai-generated 'personalized quizzes' increased engagement by 40% before the company's 2023 restructuring."] },
@@ -136,9 +136,9 @@ const ARTICLES: Article[] = [
    RELATED POSTS (sidebar)
 ───────────────────────────────────────────── */
 const RELATED = [
-  { title: "Strategies to Elevate Brand Stories and Capture Audience", image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m33-860x560.jpg", date: "Feb 1, 2024" },
-  { title: "Navigating Platforms for Effective Audience Engagement", image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m49-615x410.jpg", date: "Feb 1, 2024" },
-  { title: "Inspiring Stories at the Intersection of Art and Innovation", image: "https://c.animaapp.com/mmnh9bqovGnzGh/assets/m56-420x280.jpg", date: "Jan 31, 2024" },
+  { title: "Strategies to Elevate Brand Stories and Capture Audience", image: "/assets/images/articles/hero-large.jpg", date: "Feb 1, 2024" },
+  { title: "Navigating Platforms for Effective Audience Engagement", image: "/assets/images/articles/platforms.jpg", date: "Feb 1, 2024" },
+  { title: "Inspiring Stories at the Intersection of Art and Innovation", image: "/assets/images/avatars/sara.jpg", date: "Jan 31, 2024" },
 ];
 
 /* ─────────────────────────────────────────────
@@ -336,7 +336,7 @@ const Sidebar = ({ article }: { article: Article }) => {
         <div className="text-[10px] font-jost text-zinc-400 mb-2 tracking-[0.5px]">— Advertisement —</div>
         <a href="#" className="block hover:opacity-80 transition-opacity">
           <img
-            src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/banner-new.jpg"
+            src="/assets/images/banners/ad-banner.jpg"
             alt="Ad"
             className="w-full object-cover"
           />

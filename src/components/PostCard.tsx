@@ -10,7 +10,7 @@ export const PostCard = () => {
               className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
             >
               <img
-                src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m53-860x688.jpg"
+                src="/assets/images/articles/ai-content.jpg"
                 alt=""
                 className="absolute text-base aspect-[auto_860_/_688] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
               />
