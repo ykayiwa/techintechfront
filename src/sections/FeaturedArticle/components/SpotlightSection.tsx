@@ -1,0 +1,223 @@
+export const SpotlightSection = () => {
+  return (
+    <div className="relative text-base box-border caret-transparent gap-x-5 flex flex-col flex-wrap leading-[27.2px] min-h-[auto] gap-y-5 w-full pr-0 pt-5 border-t-[3px] border-solid md:text-[17px] md:flex-nowrap md:leading-[28.9px] md:w-[45%] md:pr-10">
+      <div className="relative text-base box-border caret-transparent gap-x-5 leading-[27.2px] max-w-full min-h-[auto] gap-y-5 md:text-[17px] md:leading-[28.9px]">
+        <div className="text-base box-border caret-transparent h-full leading-[27.2px] md:text-[17px] md:leading-[28.9px]">
+          <div className="text-base box-border caret-transparent leading-[27.2px] md:text-[17px] md:leading-[28.9px]">
+            <div className="relative text-base items-center box-border caret-transparent gap-x-2.5 flex leading-[27.2px] w-full md:text-[17px] md:leading-[28.9px]">
+              <h2 className="relative text-[26px] font-bold box-border caret-transparent tracking-[-0.76466px] leading-[26px] min-h-[auto] min-w-[auto] break-words font-plus_jakarta_sans md:text-[34px] md:tracking-[-0.99994px] md:leading-[34px]">
+                <span className="relative text-[35px] box-border caret-transparent tracking-[-0.5px] leading-[35px] break-words z-[1] font-jost md:text-[50px] md:leading-[50px]">
+                  ★ Spotlight{" "}
+                </span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="relative text-base box-border caret-transparent gap-x-5 leading-[27.2px] max-w-full min-h-[auto] gap-y-5 md:text-[17px] md:leading-[28.9px]">
+        <div className="text-base box-border caret-transparent h-full leading-[27.2px] md:text-[17px] md:leading-[28.9px]">
+          <div className="relative text-base box-border caret-transparent leading-[27.2px] md:text-[17px] md:leading-[28.9px]">
+            <div className="text-base box-border caret-transparent flex grow flex-wrap leading-[27.2px] gap-y-[15px] md:text-[17px] md:leading-[28.9px] md:gap-y-5">
+              <div className="relative text-base box-border caret-transparent flex basis-full leading-[27.2px] min-h-[auto] min-w-[auto] w-full pb-[15px] md:text-[17px] md:leading-[28.9px] md:pb-5 before:accent-auto before:box-border before:caret-transparent before:text-black before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-px before:tracking-[normal] before:leading-[27.2px] before:list-outside before:list-disc before:max-w-full before:pointer-events-none before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:border-b before:border-separate before:bottom-0 before:inset-x-0 before:font-arial before:md:text-[17px] before:md:leading-[28.9px]">
+                <div className="relative text-base box-border caret-transparent shrink-0 leading-[27.2px] max-w-full min-h-[auto] min-w-[auto] w-[100px] mr-5 md:text-[17px] md:leading-[28.9px] md:w-[180px]">
+                  <div className="relative text-base box-border caret-transparent leading-[27.2px] overflow-hidden pb-[75%] md:text-[17px] md:leading-[28.9px]">
+                    <a
+                      href="https://foxiz.io/marketminds/blog/white-house-reminds-lawmakers-not-to-travel-to-afghanistan/"
+                      title="White House Reminds Lawmakers not to Travel to Afghanistan"
+                      className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
+                    >
+                      <img
+                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m55-420x280.jpg"
+                        alt=""
+                        className="absolute text-base aspect-[auto_420_/_280] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="relative text-base box-border caret-transparent grow leading-[27.2px] min-h-[auto] min-w-[auto] md:text-[17px] md:leading-[28.9px]">
+                  <h2 className="text-[19px] font-bold box-border caret-transparent tracking-[-0.55879px] leading-[24.7px] break-words mb-[7px] font-plus_jakarta_sans md:text-[28px] md:tracking-[-0.82348px] md:leading-[35px]">
+                    <a
+                      href="https://foxiz.io/marketminds/blog/white-house-reminds-lawmakers-not-to-travel-to-afghanistan/"
+                      className="relative text-[19px] box-border caret-transparent tracking-[-0.55879px] leading-[24.7px] break-words underline-offset-[1.9px] md:text-[28px] md:tracking-[-0.82348px] md:leading-[35px] md:underline-offset-[2.8px] bg-[linear-gradient(currentColor,currentColor)] bg-no-repeat [background-size:0%_2px] hover:[background-size:100%_2px] bg-left-bottom transition-[background-size] duration-300 hover:bg-yellow-200"
+                    >
+                      {" "}
+                      White House Reminds Lawmakers not to Travel to
+                      Afghanistan{" "}
+                    </a>
+                  </h2>
+                  <div className="relative text-base box-border caret-transparent leading-[27.2px] md:text-[17px] md:leading-[28.9px]">
+                    <div className="text-xs items-center box-border caret-transparent gap-x-[7.2px] flex flex-wrap leading-[20.4px] gap-y-[2.4px] font-jost md:text-[13px] md:gap-x-[7.8px] md:leading-[22.1px] md:gap-y-[2.6px]">
+                      <div className="text-xs font-semibold items-center box-border caret-transparent gap-x-[4.2px] hidden flex-wrap tracking-[0.5px] leading-[20.4px] min-h-0 min-w-0 gap-y-[4.2px] md:text-[13px] md:gap-x-[4.55px] md:flex md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto] md:gap-y-[4.55px] after:md:accent-auto after:md:bg-black after:md:box-border after:md:caret-transparent after:md:text-black after:md:flex after:md:text-base after:md:not-italic after:md:normal-nums after:md:font-semibold after:md:h-2 after:md:tracking-[0.5px] after:md:leading-[27.2px] after:md:list-outside after:md:list-disc after:md:min-h-[auto] after:md:min-w-[auto] after:md:opacity-30 after:md:pointer-events-auto after:md:text-start after:md:no-underline after:md:indent-[0px] after:md:normal-case after:md:visible after:md:w-px after:md:ml-1 after:md:border-separate after:md:font-jost">
+                        <span className="text-xs font-normal items-center box-border caret-transparent gap-x-[4.2px] inline-flex tracking-[normal] leading-[20.4px] min-h-0 min-w-0 gap-y-[4.2px] md:text-[13px] md:gap-x-[4.55px] md:flex md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto] md:gap-y-[4.55px]">
+                          By
+                        </span>
+                        <a
+                          href="https://foxiz.io/marketminds/blog/author/chronicle/"
+                          className="text-xs box-border caret-transparent inline leading-[20.4px] min-h-0 min-w-0 decoration-transparent underline underline-offset-[2.1px] md:text-[13px] md:block md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto] md:underline-offset-[2.275px] hover:decoration-black"
+                        >
+                          TechInsider
+                        </a>
+                      </div>
+                      <div className="text-xs items-center box-border caret-transparent gap-x-[4.2px] hidden flex-wrap leading-[20.4px] min-h-0 min-w-0 gap-y-[4.2px] md:text-[13px] md:gap-x-[4.55px] md:flex md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto] md:gap-y-[4.55px]">
+                        <time className="text-xs box-border caret-transparent inline leading-[20.4px] min-h-0 min-w-0 md:text-[13px] md:block md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto]">
+                          January 31, 2024
+                        </time>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="relative text-base box-border caret-transparent flex basis-full leading-[27.2px] min-h-[auto] min-w-[auto] w-full pb-[15px] md:text-[17px] md:leading-[28.9px] md:pb-5 before:accent-auto before:box-border before:caret-transparent before:text-black before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-px before:tracking-[normal] before:leading-[27.2px] before:list-outside before:list-disc before:max-w-full before:pointer-events-none before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:border-b before:border-separate before:bottom-0 before:inset-x-0 before:font-arial before:md:text-[17px] before:md:leading-[28.9px]">
+                <div className="relative text-base box-border caret-transparent shrink-0 leading-[27.2px] max-w-full min-h-[auto] min-w-[auto] w-[100px] mr-5 md:text-[17px] md:leading-[28.9px] md:w-[180px]">
+                  <div className="relative text-base box-border caret-transparent leading-[27.2px] overflow-hidden pb-[75%] md:text-[17px] md:leading-[28.9px]">
+                    <a
+                      href="https://foxiz.io/marketminds/blog/new-cybersecurity-threats-emerge-in-the-digital-landscape/"
+                      title="New Cybersecurity Threats Emerge in the Digital Landscape"
+                      className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
+                    >
+                      <img
+                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m56-420x280.jpg"
+                        alt=""
+                        className="absolute text-base aspect-[auto_420_/_280] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="relative text-base box-border caret-transparent grow leading-[27.2px] min-h-[auto] min-w-[auto] md:text-[17px] md:leading-[28.9px]">
+                  <h2 className="text-[19px] font-bold box-border caret-transparent tracking-[-0.55879px] leading-[24.7px] break-words mb-[7px] font-plus_jakarta_sans md:text-[28px] md:tracking-[-0.82348px] md:leading-[35px]">
+                    <a
+                      href="https://foxiz.io/marketminds/blog/new-cybersecurity-threats-emerge-in-the-digital-landscape/"
+                      className="relative text-[19px] box-border caret-transparent tracking-[-0.55879px] leading-[24.7px] break-words underline-offset-[1.9px] md:text-[28px] md:tracking-[-0.82348px] md:leading-[35px] md:underline-offset-[2.8px] bg-[linear-gradient(currentColor,currentColor)] bg-no-repeat [background-size:0%_2px] hover:[background-size:100%_2px] bg-left-bottom transition-[background-size] duration-300 hover:bg-yellow-200"
+                    >
+                      {" "}
+                      New Cybersecurity Threats Emerge in the Digital
+                      Landscape{" "}
+                    </a>
+                  </h2>
+                  <div className="relative text-base box-border caret-transparent leading-[27.2px] md:text-[17px] md:leading-[28.9px]">
+                    <div className="text-xs items-center box-border caret-transparent gap-x-[7.2px] flex flex-wrap leading-[20.4px] gap-y-[2.4px] font-jost md:text-[13px] md:gap-x-[7.8px] md:leading-[22.1px] md:gap-y-[2.6px]">
+                      <div className="text-xs font-semibold items-center box-border caret-transparent gap-x-[4.2px] hidden flex-wrap tracking-[0.5px] leading-[20.4px] min-h-0 min-w-0 gap-y-[4.2px] md:text-[13px] md:gap-x-[4.55px] md:flex md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto] md:gap-y-[4.55px] after:md:accent-auto after:md:bg-black after:md:box-border after:md:caret-transparent after:md:text-black after:md:flex after:md:text-base after:md:not-italic after:md:normal-nums after:md:font-semibold after:md:h-2 after:md:tracking-[0.5px] after:md:leading-[27.2px] after:md:list-outside after:md:list-disc after:md:min-h-[auto] after:md:min-w-[auto] after:md:opacity-30 after:md:pointer-events-auto after:md:text-start after:md:no-underline after:md:indent-[0px] after:md:normal-case after:md:visible after:md:w-px after:md:ml-1 after:md:border-separate after:md:font-jost">
+                        <span className="text-xs font-normal items-center box-border caret-transparent gap-x-[4.2px] inline-flex tracking-[normal] leading-[20.4px] min-h-0 min-w-0 gap-y-[4.2px] md:text-[13px] md:gap-x-[4.55px] md:flex md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto] md:gap-y-[4.55px]">
+                          By
+                        </span>
+                        <a
+                          href="https://foxiz.io/marketminds/blog/author/chronicle/"
+                          className="text-xs box-border caret-transparent inline leading-[20.4px] min-h-0 min-w-0 decoration-transparent underline underline-offset-[2.1px] md:text-[13px] md:block md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto] md:underline-offset-[2.275px] hover:decoration-black"
+                        >
+                          TechInsider
+                        </a>
+                      </div>
+                      <div className="text-xs items-center box-border caret-transparent gap-x-[4.2px] hidden flex-wrap leading-[20.4px] min-h-0 min-w-0 gap-y-[4.2px] md:text-[13px] md:gap-x-[4.55px] md:flex md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto] md:gap-y-[4.55px]">
+                        <time className="text-xs box-border caret-transparent inline leading-[20.4px] min-h-0 min-w-0 md:text-[13px] md:block md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto]">
+                          January 31, 2024
+                        </time>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="relative text-base box-border caret-transparent flex basis-full leading-[27.2px] min-h-[auto] min-w-[auto] w-full pb-[15px] md:text-[17px] md:leading-[28.9px] md:pb-5 before:accent-auto before:box-border before:caret-transparent before:text-black before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-px before:tracking-[normal] before:leading-[27.2px] before:list-outside before:list-disc before:max-w-full before:pointer-events-none before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:border-b before:border-separate before:bottom-0 before:inset-x-0 before:font-arial before:md:text-[17px] before:md:leading-[28.9px]">
+                <div className="relative text-base box-border caret-transparent shrink-0 leading-[27.2px] max-w-full min-h-[auto] min-w-[auto] w-[100px] mr-5 md:text-[17px] md:leading-[28.9px] md:w-[180px]">
+                  <div className="relative text-base box-border caret-transparent leading-[27.2px] overflow-hidden pb-[75%] md:text-[17px] md:leading-[28.9px]">
+                    <a
+                      href="https://foxiz.io/marketminds/blog/dive-into-vibrant-festivals-and-events-for-a-rich-experience/"
+                      title="Dive into Vibrant Festivals and Events for a Rich Experience"
+                      className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
+                    >
+                      <img
+                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m57-420x280.jpg"
+                        alt=""
+                        className="absolute text-base aspect-[auto_420_/_280] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="relative text-base box-border caret-transparent grow leading-[27.2px] min-h-[auto] min-w-[auto] md:text-[17px] md:leading-[28.9px]">
+                  <h2 className="text-[19px] font-bold box-border caret-transparent tracking-[-0.55879px] leading-[24.7px] break-words mb-[7px] font-plus_jakarta_sans md:text-[28px] md:tracking-[-0.82348px] md:leading-[35px]">
+                    <a
+                      href="https://foxiz.io/marketminds/blog/dive-into-vibrant-festivals-and-events-for-a-rich-experience/"
+                      className="relative text-[19px] box-border caret-transparent tracking-[-0.55879px] leading-[24.7px] break-words underline-offset-[1.9px] md:text-[28px] md:tracking-[-0.82348px] md:leading-[35px] md:underline-offset-[2.8px] bg-[linear-gradient(currentColor,currentColor)] bg-no-repeat [background-size:0%_2px] hover:[background-size:100%_2px] bg-left-bottom transition-[background-size] duration-300 hover:bg-yellow-200"
+                    >
+                      {" "}
+                      Dive into Vibrant Festivals and Events for a Rich
+                      Experience{" "}
+                    </a>
+                  </h2>
+                  <div className="relative text-base box-border caret-transparent leading-[27.2px] md:text-[17px] md:leading-[28.9px]">
+                    <div className="text-xs items-center box-border caret-transparent gap-x-[7.2px] flex flex-wrap leading-[20.4px] gap-y-[2.4px] font-jost md:text-[13px] md:gap-x-[7.8px] md:leading-[22.1px] md:gap-y-[2.6px]">
+                      <div className="text-xs font-semibold items-center box-border caret-transparent gap-x-[4.2px] hidden flex-wrap tracking-[0.5px] leading-[20.4px] min-h-0 min-w-0 gap-y-[4.2px] md:text-[13px] md:gap-x-[4.55px] md:flex md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto] md:gap-y-[4.55px] after:md:accent-auto after:md:bg-black after:md:box-border after:md:caret-transparent after:md:text-black after:md:flex after:md:text-base after:md:not-italic after:md:normal-nums after:md:font-semibold after:md:h-2 after:md:tracking-[0.5px] after:md:leading-[27.2px] after:md:list-outside after:md:list-disc after:md:min-h-[auto] after:md:min-w-[auto] after:md:opacity-30 after:md:pointer-events-auto after:md:text-start after:md:no-underline after:md:indent-[0px] after:md:normal-case after:md:visible after:md:w-px after:md:ml-1 after:md:border-separate after:md:font-jost">
+                        <span className="text-xs font-normal items-center box-border caret-transparent gap-x-[4.2px] inline-flex tracking-[normal] leading-[20.4px] min-h-0 min-w-0 gap-y-[4.2px] md:text-[13px] md:gap-x-[4.55px] md:flex md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto] md:gap-y-[4.55px]">
+                          By
+                        </span>
+                        <a
+                          href="https://foxiz.io/marketminds/blog/author/chronicle/"
+                          className="text-xs box-border caret-transparent inline leading-[20.4px] min-h-0 min-w-0 decoration-transparent underline underline-offset-[2.1px] md:text-[13px] md:block md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto] md:underline-offset-[2.275px] hover:decoration-black"
+                        >
+                          TechInsider
+                        </a>
+                      </div>
+                      <div className="text-xs items-center box-border caret-transparent gap-x-[4.2px] hidden flex-wrap leading-[20.4px] min-h-0 min-w-0 gap-y-[4.2px] md:text-[13px] md:gap-x-[4.55px] md:flex md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto] md:gap-y-[4.55px]">
+                        <time className="text-xs box-border caret-transparent inline leading-[20.4px] min-h-0 min-w-0 md:text-[13px] md:block md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto]">
+                          January 31, 2024
+                        </time>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="relative text-base box-border caret-transparent flex basis-full leading-[27.2px] min-h-[auto] min-w-[auto] w-full md:text-[17px] md:leading-[28.9px] before:accent-auto before:box-border before:caret-transparent before:text-black before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-px before:tracking-[normal] before:leading-[27.2px] before:list-outside before:list-disc before:max-w-full before:pointer-events-none before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:bottom-0 before:inset-x-0 before:font-arial before:md:text-[17px] before:md:leading-[28.9px]">
+                <div className="relative text-base box-border caret-transparent shrink-0 leading-[27.2px] max-w-full min-h-[auto] min-w-[auto] w-[100px] mr-5 md:text-[17px] md:leading-[28.9px] md:w-[180px]">
+                  <div className="relative text-base box-border caret-transparent leading-[27.2px] overflow-hidden pb-[75%] md:text-[17px] md:leading-[28.9px]">
+                    <a
+                      href="https://foxiz.io/marketminds/blog/inspiring-stories-at-the-intersection-of-art-and-innovation/"
+                      title="Inspiring Stories at the Intersection of Art and Innovation"
+                      className="absolute text-base box-border caret-transparent block leading-[27.2px] z-[1] inset-0 md:text-[17px] md:leading-[28.9px]"
+                    >
+                      <img
+                        src="https://c.animaapp.com/mmnh9bqovGnzGh/assets/m51-420x280.jpg"
+                        alt=""
+                        className="absolute text-base aspect-[auto_420_/_280] box-border caret-transparent h-full leading-[27.2px] max-w-full object-cover w-full inset-0 md:text-[17px] md:leading-[28.9px]"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className="relative text-base box-border caret-transparent grow leading-[27.2px] min-h-[auto] min-w-[auto] md:text-[17px] md:leading-[28.9px]">
+                  <h2 className="text-[19px] font-bold box-border caret-transparent tracking-[-0.55879px] leading-[24.7px] break-words mb-[7px] font-plus_jakarta_sans md:text-[28px] md:tracking-[-0.82348px] md:leading-[35px]">
+                    <a
+                      href="https://foxiz.io/marketminds/blog/inspiring-stories-at-the-intersection-of-art-and-innovation/"
+                      className="relative text-[19px] box-border caret-transparent tracking-[-0.55879px] leading-[24.7px] break-words underline-offset-[1.9px] md:text-[28px] md:tracking-[-0.82348px] md:leading-[35px] md:underline-offset-[2.8px] bg-[linear-gradient(currentColor,currentColor)] bg-no-repeat [background-size:0%_2px] hover:[background-size:100%_2px] bg-left-bottom transition-[background-size] duration-300 hover:bg-yellow-200"
+                    >
+                      {" "}
+                      Inspiring Stories at the Intersection of Art and
+                      Innovation{" "}
+                    </a>
+                  </h2>
+                  <div className="relative text-base box-border caret-transparent leading-[27.2px] md:text-[17px] md:leading-[28.9px]">
+                    <div className="text-xs items-center box-border caret-transparent gap-x-[7.2px] flex flex-wrap leading-[20.4px] gap-y-[2.4px] font-jost md:text-[13px] md:gap-x-[7.8px] md:leading-[22.1px] md:gap-y-[2.6px]">
+                      <div className="text-xs font-semibold items-center box-border caret-transparent gap-x-[4.2px] hidden flex-wrap tracking-[0.5px] leading-[20.4px] min-h-0 min-w-0 gap-y-[4.2px] md:text-[13px] md:gap-x-[4.55px] md:flex md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto] md:gap-y-[4.55px] after:md:accent-auto after:md:bg-black after:md:box-border after:md:caret-transparent after:md:text-black after:md:flex after:md:text-base after:md:not-italic after:md:normal-nums after:md:font-semibold after:md:h-2 after:md:tracking-[0.5px] after:md:leading-[27.2px] after:md:list-outside after:md:list-disc after:md:min-h-[auto] after:md:min-w-[auto] after:md:opacity-30 after:md:pointer-events-auto after:md:text-start after:md:no-underline after:md:indent-[0px] after:md:normal-case after:md:visible after:md:w-px after:md:ml-1 after:md:border-separate after:md:font-jost">
+                        <span className="text-xs font-normal items-center box-border caret-transparent gap-x-[4.2px] inline-flex tracking-[normal] leading-[20.4px] min-h-0 min-w-0 gap-y-[4.2px] md:text-[13px] md:gap-x-[4.55px] md:flex md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto] md:gap-y-[4.55px]">
+                          By
+                        </span>
+                        <a
+                          href="https://foxiz.io/marketminds/blog/author/chronicle/"
+                          className="text-xs box-border caret-transparent inline leading-[20.4px] min-h-0 min-w-0 decoration-transparent underline underline-offset-[2.1px] md:text-[13px] md:block md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto] md:underline-offset-[2.275px] hover:decoration-black"
+                        >
+                          TechInsider
+                        </a>
+                      </div>
+                      <div className="text-xs items-center box-border caret-transparent gap-x-[4.2px] hidden flex-wrap leading-[20.4px] min-h-0 min-w-0 gap-y-[4.2px] md:text-[13px] md:gap-x-[4.55px] md:flex md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto] md:gap-y-[4.55px]">
+                        <time className="text-xs box-border caret-transparent inline leading-[20.4px] min-h-0 min-w-0 md:text-[13px] md:block md:leading-[22.1px] md:min-h-[auto] md:min-w-[auto]">
+                          January 31, 2024
+                        </time>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

@@ -1,0 +1,319 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Scroll-reveal base ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-24px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+.reveal-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+.reveal-right {
+  opacity: 0;
+  transform: translateX(24px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+.reveal-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* ── Staggered children ── */
+.stagger-children > *:nth-child(1)  { transition-delay: 0ms;   }
+.stagger-children > *:nth-child(2)  { transition-delay: 80ms;  }
+.stagger-children > *:nth-child(3)  { transition-delay: 160ms; }
+.stagger-children > *:nth-child(4)  { transition-delay: 240ms; }
+.stagger-children > *:nth-child(5)  { transition-delay: 320ms; }
+.stagger-children > *:nth-child(6)  { transition-delay: 400ms; }
+.stagger-children > *:nth-child(7)  { transition-delay: 480ms; }
+.stagger-children > *:nth-child(8)  { transition-delay: 560ms; }
+.stagger-children > *:nth-child(9)  { transition-delay: 640ms; }
+.stagger-children > *:nth-child(10) { transition-delay: 720ms; }
+
+/* ── Image zoom on hover ── */
+.img-zoom {
+  overflow: hidden;
+}
+.img-zoom img {
+  transition: transform 0.5s ease;
+}
+.img-zoom:hover img {
+  transform: scale(1.04);
+}
+
+/* ── Link highlight hover ── */
+.link-highlight {
+  background-size: 0% 100% !important;
+  transition: background-size 0.3s ease !important;
+}
+.link-highlight:hover {
+  background-size: 100% 100% !important;
+}
+
+/* ── Nav underline slide ── */
+.nav-link-underline {
+  position: relative;
+}
+.nav-link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: 8px;
+  left: 12px;
+  right: 12px;
+  height: 2px;
+  background: #a3e635;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+.nav-link-underline:hover::after {
+  transform: scaleX(1);
+}
+.nav-link-active::after {
+  transform: scaleX(1) !important;
+}
+
+/* ── Floating buttons bounce ── */
+@keyframes gentle-float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-5px); }
+}
+.float-anim {
+  animation: gentle-float 3s ease-in-out infinite;
+}
+.float-anim-delay {
+  animation: gentle-float 3s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
+
+/* ── Mobile menu slide-in ── */
+.mobile-menu-enter {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+.mobile-menu-open {
+  max-height: 500px;
+}
+
+/* ── Popup overlay ── */
+.popup-overlay {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.popup-overlay.popup-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+.popup-card {
+  transform: translateY(30px) scale(0.97);
+  transition: transform 0.35s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+.popup-overlay.popup-active .popup-card {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+/* ── Smooth pulse on newsletter CTA border ── */
+@keyframes border-pulse {
+  0%, 100% { border-color: #a3e635; }
+  50%       { border-color: #65a30d; }
+}
+.cta-border-pulse {
+  animation: border-pulse 2.5s ease-in-out infinite;
+}
+
+/* ── Button press ── */
+.btn-press {
+  transition: transform 0.12s ease, opacity 0.12s ease;
+}
+.btn-press:active {
+  transform: scale(0.96);
+  opacity: 0.85;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('https://fonts.gstatic.com/s/plusjakartasans/v12/LDIZaomQNQcsA88c7O9yZ4KMCoOg4KozySKCdSNG9OcqYQ0lCS_XOKw.woff2') format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2') format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2') format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  /* @FONTWARNING[{"type":"restricted","family":"ruby-icon","weight":"400","style":"normal","allowsCrossOrigin":false}] */
+  font-family: 'ruby-icon';
+  src: url('https://foxiz.io/marketminds/wp-content/themes/foxiz/assets/fonts/icons.woff2?ver=2.5.0') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('https://foxiz.io/marketminds/wp-content/uploads/elementor/google-fonts/fonts/jost-7353d4e7.woff2') format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('https://foxiz.io/marketminds/wp-content/uploads/elementor/google-fonts/fonts/jost-7353d4e7.woff2') format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('https://foxiz.io/marketminds/wp-content/uploads/elementor/google-fonts/fonts/jost-7353d4e7.woff2') format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('https://foxiz.io/marketminds/wp-content/uploads/elementor/google-fonts/fonts/jost-7353d4e7.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('https://foxiz.io/marketminds/wp-content/uploads/elementor/google-fonts/fonts/jost-7353d4e7.woff2') format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('https://foxiz.io/marketminds/wp-content/uploads/elementor/google-fonts/fonts/jost-7353d4e7.woff2') format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('https://foxiz.io/marketminds/wp-content/uploads/elementor/google-fonts/fonts/jost-7353d4e7.woff2') format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('https://foxiz.io/marketminds/wp-content/uploads/elementor/google-fonts/fonts/jost-7353d4e7.woff2') format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('https://foxiz.io/marketminds/wp-content/uploads/elementor/google-fonts/fonts/jost-7353d4e7.woff2') format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
